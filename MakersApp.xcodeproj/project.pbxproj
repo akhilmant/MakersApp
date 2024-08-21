@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D012662A2C76662600BDA642 /* MakersAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01266292C76662600BDA642 /* MakersAppApp.swift */; };
+		D012662C2C76662600BDA642 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012662B2C76662600BDA642 /* ContentView.swift */; };
+		D012662E2C76662800BDA642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D012662D2C76662800BDA642 /* Assets.xcassets */; };
+		D01266312C76662800BDA642 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01266302C76662800BDA642 /* Preview Assets.xcassets */; };
+		D012663B2C76662800BDA642 /* MakersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012663A2C76662800BDA642 /* MakersAppTests.swift */; };
+		D01266452C76662800BDA642 /* MakersAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01266442C76662800BDA642 /* MakersAppUITests.swift */; };
+		D01266472C76662800BDA642 /* MakersAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01266462C76662800BDA642 /* MakersAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D01266372C76662800BDA642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D012661E2C76662600BDA642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01266252C76662600BDA642;
+			remoteInfo = MakersApp;
+		};
+		D01266412C76662800BDA642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D012661E2C76662600BDA642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01266252C76662600BDA642;
+			remoteInfo = MakersApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D01266262C76662600BDA642 /* MakersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01266292C76662600BDA642 /* MakersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakersAppApp.swift; sourceTree = "<group>"; };
+		D012662B2C76662600BDA642 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D012662D2C76662800BDA642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D01266302C76662800BDA642 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D01266362C76662800BDA642 /* MakersAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakersAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D012663A2C76662800BDA642 /* MakersAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakersAppTests.swift; sourceTree = "<group>"; };
+		D01266402C76662800BDA642 /* MakersAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakersAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01266442C76662800BDA642 /* MakersAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakersAppUITests.swift; sourceTree = "<group>"; };
+		D01266462C76662800BDA642 /* MakersAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakersAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D01266232C76662600BDA642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01266332C76662800BDA642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D012663D2C76662800BDA642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D012661D2C76662600BDA642 = {
+			isa = PBXGroup;
+			children = (
+				D01266282C76662600BDA642 /* MakersApp */,
+				D01266392C76662800BDA642 /* MakersAppTests */,
+				D01266432C76662800BDA642 /* MakersAppUITests */,
+				D01266272C76662600BDA642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D01266272C76662600BDA642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D01266262C76662600BDA642 /* MakersApp.app */,
+				D01266362C76662800BDA642 /* MakersAppTests.xctest */,
+				D01266402C76662800BDA642 /* MakersAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01266282C76662600BDA642 /* MakersApp */ = {
+			isa = PBXGroup;
+			children = (
+				D01266292C76662600BDA642 /* MakersAppApp.swift */,
+				D012662B2C76662600BDA642 /* ContentView.swift */,
+				D012662D2C76662800BDA642 /* Assets.xcassets */,
+				D012662F2C76662800BDA642 /* Preview Content */,
+			);
+			path = MakersApp;
+			sourceTree = "<group>";
+		};
+		D012662F2C76662800BDA642 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D01266302C76662800BDA642 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D01266392C76662800BDA642 /* MakersAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D012663A2C76662800BDA642 /* MakersAppTests.swift */,
+			);
+			path = MakersAppTests;
+			sourceTree = "<group>";
+		};
+		D01266432C76662800BDA642 /* MakersAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D01266442C76662800BDA642 /* MakersAppUITests.swift */,
+				D01266462C76662800BDA642 /* MakersAppUITestsLaunchTests.swift */,
+			);
+			path = MakersAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D01266252C76662600BDA642 /* MakersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D012664A2C76662800BDA642 /* Build configuration list for PBXNativeTarget "MakersApp" */;
+			buildPhases = (
+				D01266222C76662600BDA642 /* Sources */,
+				D01266232C76662600BDA642 /* Frameworks */,
+				D01266242C76662600BDA642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakersApp;
+			productName = MakersApp;
+			productReference = D01266262C76662600BDA642 /* MakersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D01266352C76662800BDA642 /* MakersAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D012664D2C76662800BDA642 /* Build configuration list for PBXNativeTarget "MakersAppTests" */;
+			buildPhases = (
+				D01266322C76662800BDA642 /* Sources */,
+				D01266332C76662800BDA642 /* Frameworks */,
+				D01266342C76662800BDA642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01266382C76662800BDA642 /* PBXTargetDependency */,
+			);
+			name = MakersAppTests;
+			productName = MakersAppTests;
+			productReference = D01266362C76662800BDA642 /* MakersAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D012663F2C76662800BDA642 /* MakersAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01266502C76662800BDA642 /* Build configuration list for PBXNativeTarget "MakersAppUITests" */;
+			buildPhases = (
+				D012663C2C76662800BDA642 /* Sources */,
+				D012663D2C76662800BDA642 /* Frameworks */,
+				D012663E2C76662800BDA642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01266422C76662800BDA642 /* PBXTargetDependency */,
+			);
+			name = MakersAppUITests;
+			productName = MakersAppUITests;
+			productReference = D01266402C76662800BDA642 /* MakersAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D012661E2C76662600BDA642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D01266252C76662600BDA642 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D01266352C76662800BDA642 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D01266252C76662600BDA642;
+					};
+					D012663F2C76662800BDA642 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D01266252C76662600BDA642;
+					};
+				};
+			};
+			buildConfigurationList = D01266212C76662600BDA642 /* Build configuration list for PBXProject "MakersApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D012661D2C76662600BDA642;
+			productRefGroup = D01266272C76662600BDA642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D01266252C76662600BDA642 /* MakersApp */,
+				D01266352C76662800BDA642 /* MakersAppTests */,
+				D012663F2C76662800BDA642 /* MakersAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D01266242C76662600BDA642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01266312C76662800BDA642 /* Preview Assets.xcassets in Resources */,
+				D012662E2C76662800BDA642 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01266342C76662800BDA642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D012663E2C76662800BDA642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D01266222C76662600BDA642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D012662C2C76662600BDA642 /* ContentView.swift in Sources */,
+				D012662A2C76662600BDA642 /* MakersAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01266322C76662800BDA642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D012663B2C76662800BDA642 /* MakersAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D012663C2C76662800BDA642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01266452C76662800BDA642 /* MakersAppUITests.swift in Sources */,
+				D01266472C76662800BDA642 /* MakersAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D01266382C76662800BDA642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01266252C76662600BDA642 /* MakersApp */;
+			targetProxy = D01266372C76662800BDA642 /* PBXContainerItemProxy */;
+		};
+		D01266422C76662800BDA642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01266252C76662600BDA642 /* MakersApp */;
+			targetProxy = D01266412C76662800BDA642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D01266482C76662800BDA642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D01266492C76662800BDA642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D012664B2C76662800BDA642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MakersApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makersapp.MakersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D012664C2C76662800BDA642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MakersApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makersapp.MakersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D012664E2C76662800BDA642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makersapp.MakersAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakersApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MakersApp";
+			};
+			name = Debug;
+		};
+		D012664F2C76662800BDA642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makersapp.MakersAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakersApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MakersApp";
+			};
+			name = Release;
+		};
+		D01266512C76662800BDA642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makersapp.MakersAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MakersApp;
+			};
+			name = Debug;
+		};
+		D01266522C76662800BDA642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makersapp.MakersAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MakersApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D01266212C76662600BDA642 /* Build configuration list for PBXProject "MakersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01266482C76662800BDA642 /* Debug */,
+				D01266492C76662800BDA642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D012664A2C76662800BDA642 /* Build configuration list for PBXNativeTarget "MakersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D012664B2C76662800BDA642 /* Debug */,
+				D012664C2C76662800BDA642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D012664D2C76662800BDA642 /* Build configuration list for PBXNativeTarget "MakersAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D012664E2C76662800BDA642 /* Debug */,
+				D012664F2C76662800BDA642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01266502C76662800BDA642 /* Build configuration list for PBXNativeTarget "MakersAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01266512C76662800BDA642 /* Debug */,
+				D01266522C76662800BDA642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D012661E2C76662600BDA642 /* Project object */;
+}
